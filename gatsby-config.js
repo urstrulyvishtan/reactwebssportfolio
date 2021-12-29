@@ -7,14 +7,14 @@ module.exports = {
     // You can overwrite values here that are used for the SEO component
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-cara/gatsby-config.js
-    siteTitle: `portfolio`,
-    siteTitleAlt: `Vis7tan's Portfolio`,
-    siteHeadline: `Vis7tan theme`,
-    siteUrl: `https://vishtan.tech`,
-    siteDescription: `Built using Reactjs and Gatsby`,
+    siteTitle: `Cara`,
+    siteTitleAlt: `Cara - Gatsby Starter Portfolio`,
+    siteHeadline: `Cara - Gatsby Theme from @lekoarts`,
+    siteUrl: `https://cara.lekoarts.de`,
+    siteDescription: `Playful and Colorful One-Page portfolio featuring Parallax effects and animations`,
     siteLanguage: `en`,
     siteImage: `/banner.jpg`,
-    author: `@vis7tan`,
+    author: `@lekoarts_de`,
   },
   plugins: [
     {
@@ -36,14 +36,14 @@ module.exports = {
         display: `standalone`,
         icons: [
           {
-            src: `/android-chrome-192x192.png`,
+            src: `/favicon.ico`,
             sizes: `192x192`,
-            type: `image/png`,
+            type: `image/ico`,
           },
           {
-            src: `/android-chrome-512x512.png`,
+            src: `/favicon.ico`,
             sizes: `512x512`,
-            type: `image/png`,
+            type: `image/ico`,
           },
         ],
       },
